@@ -1,4 +1,4 @@
-const images = ["background.jpg", "background2.jpg", "background3.jpg"]; // img를 array하고 변수화 *(변수images)
+const images = ["background3.jpg"]; // img를 array하고 변수화 *(변수images)
 
 const chosenImage = images[Math.floor(Math.random() * images.length)]; // 변수images의 max 갯수 중 하나를 floor하고 random으로 선택 *(변수 chosenImage)
 

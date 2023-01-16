@@ -2,6 +2,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: op;
   color: white;
+}
+#login-form input {
+  font-size: 15px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  margin-left: 2px;
+}
+#login-form input::placeholder {
+  font-family: "Nanum Myeongjo", serif;
+  text-align: center;
+  color: white;
+}
+#login-form input:last-child {
+  font-family: "Nanum Myeongjo", serif;
+  color: white;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
 }

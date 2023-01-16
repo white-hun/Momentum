@@ -1,0 +1,18 @@
+#todo-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#todo-form input {
+  font-family: "Nanum Myeongjo", serif;
+  width: 240px;
+  font-size: 15px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+}
+#todo-form input::placeholder {
+  text-align: center;
+  color: white;
+}

@@ -3,6 +3,7 @@
 @import "screen/clock.css";
 @import "screen/greeting.css";
 @import "screen/login.css";
+@import "screen/todo.css";
 
 body {
   font-family: "Nanum Myeongjo", serif;
@@ -11,13 +12,20 @@ body {
   height: 100vh;
   color: white;
 }
+input:focus {
+  outline: none;
+}
+
 .hidden {
   display: none;
 }
 #weather {
-  display: flex;
-  justify-content: flex-end;
-  margin: 10px 15px;
+  /* display: flex; */
+  /* justify-content: flex-end; */
+  margin: 10px 20px;
+  position: absolute;
+  right: 0;
+  z-index: 999;
 }
 #weather span {
   margin-left: 10px;
