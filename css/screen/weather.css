@@ -1,0 +1,12 @@
+#weather {
+    /* display: flex;
+    justify-content: flex-end; */
+    margin: 15px 35px;
+    position: absolute;
+    font-size: 20px;
+    right: 0;
+    z-index: 999;
+  }
+  #weather span {
+    margin-left: 5px;
+  }

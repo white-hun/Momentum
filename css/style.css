@@ -4,6 +4,9 @@
 @import "screen/greeting.css";
 @import "screen/login.css";
 @import "screen/todo.css";
+@import "screen/quote.css";
+@import "screen/weather.css";
+@import "screen/background.css";
 
 body {
   font-family: "Nanum Myeongjo", serif;
@@ -11,6 +14,9 @@ body {
   width: 100vw;
   height: 100vh;
   color: white;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-size: cover;
 }
 input:focus {
   outline: none;
@@ -18,30 +24,4 @@ input:focus {
 
 .hidden {
   display: none;
-}
-#weather {
-  /* display: flex; */
-  /* justify-content: flex-end; */
-  margin: 10px 20px;
-  position: absolute;
-  right: 0;
-  z-index: 999;
-}
-#weather span {
-  margin-left: 10px;
-}
-img {
-  background-size: cover;
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  margin: -10px;
-}
-#quote span {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 15px;
 }

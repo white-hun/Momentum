@@ -1,0 +1,10 @@
+#quote {
+    margin-bottom: 50px;
+  }
+#quote span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+  }
+  
