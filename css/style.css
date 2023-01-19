@@ -18,6 +18,9 @@ body {
   overflow-y: hidden;
   background-size: cover;
 }
+input {
+  caret-color: white;
+}
 input:focus {
   outline: none;
 }
